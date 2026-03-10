@@ -9,7 +9,7 @@ GatewayIntentBits.GuildMembers
 ]
 });
 
-client.once("ready", () => {
+client.once("clientReady", () => {
 console.log("Bot aktif");
 });
 
